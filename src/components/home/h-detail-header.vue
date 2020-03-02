@@ -2,26 +2,26 @@
     <div id="nav-header" :class="curtain === true ? 'nav-header nav-header-active' : 'nav-header' ">
         <div class="header-menu" v-show="!curtain">
             <div class="menu-item">
-               <router-link to="../homepage"><div class="menu-item-text">主页</div></router-link> 
+               <div class="menu-item-text">产品</div>
             </div>
             <div class="menu-item">
-                <div class="menu-item-text">推荐</div>
+                <div class="menu-item-text">会员商城</div>
             </div>
             <div class="menu-item">
-                <div class="menu-item-text">通知</div>
+                <div class="menu-item-text">售后服务</div>
             </div>
             <div class="menu-item">
-                <div class="menu-item-text">购物车</div>
+                <div class="menu-item-text">新闻中心</div>
             </div>
             <div class="menu-item">
-                <div class="menu-item-text">我的</div>
+                <div class="menu-item-text">俱乐部</div>
             </div>
             <div class="menu-item search-item" @click="tosearch">
                 <!--<a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="/cn/search"
                    data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link=""
                    aria-label="搜索 apple.com.cn" role="button" aria-haspopup="true"></a>-->
                 <!--<div class="menu-item-text">购物车</div>-->
-                <img class="search-image" src="../assets/img/header/search.png">
+                <img class="search-image" src="../../assets/img/header/search.png">
             </div>
         </div>
         <search :show="curtain"
@@ -30,9 +30,9 @@
 </template>
 
 <script>
-    import Search from "./search";
+    import Search from "../search";
     export default {
-        name: "nav-header",
+        name: "detail-header",
         components: {Search},
         data() {
             return {

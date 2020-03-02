@@ -12,7 +12,7 @@
             <div class="search-box-listBox" >
                 <div class="search-results">
                     <div class="search-results-list">查找零售店</div>
-                    <!--<div class="search-results-list">查找零售店</div>
+                    <!-- <div class="search-results-list">查找零售店</div>
                     <div class="search-results-list">查找零售店</div>
                     <div class="search-results-list">查找零售店</div>
                     <div class="search-results-list">查找零售店</div>
@@ -23,7 +23,7 @@
                     <div class="search-results-list">查找零售店</div>
                     <div class="search-results-list">查找零售店</div>
                     <div class="search-results-list">查找零售店</div>
-                    <div class="search-results-list">查找零售店</div>-->
+                    <div class="search-results-list">查找零售店</div> -->
                 </div>
             </div>
         </div>

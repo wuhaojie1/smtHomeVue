@@ -15,7 +15,18 @@ Vue.prototype.axios = axios;
 Vue.prototype.api = api;
 
 new Vue({
+  el:'#app',
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+
+  data(){
+    return{
+      BaseUrl:'https://webblog.yolostudio.cn',
+      headers:{headers:{
+        Authorization:''
+      }
+    }
+    }
+  }
 }).$mount('#app');
